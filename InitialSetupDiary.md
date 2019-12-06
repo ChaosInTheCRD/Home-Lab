@@ -1,4 +1,4 @@
-#Initial Setup Diary
+# Initial Setup Diary
 
 After using [Rufus](https://github.com/pbatard/rufus/releases/download/v3.8/rufus-3.8.exe) on Windows 10 to create the Proxmox ISO (using dd mode), I installed Proxmox onto the system.
 
