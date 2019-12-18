@@ -23,3 +23,8 @@ If I'm honest this was a bit of a pain and took a little bit of time as it was a
 
 The specifications of the VM deployed were 1 vCPU and 3gb RAM. this left me with 7 vCPU and 13gb RAM to allocate to other machines. However, I do expect that once everything has been configured this will increase considerably as this VM will be running the majority of my workloads.
 
+
+## *Side Note* ##
+After a bit of thought I figured it would be best to have some sort of authorisation server sat in front of the nginx/traefik proxy that requires 2fa for access to services. This will give me peace of mind that I am at least trying to not give everyone relatively easy access to my stuff :)
+
+A bit of reading led me to [Authelia](https://github.com/clems4ever/authelia). Seems to be a good project, and I can just setup Google Authenticator for 2FA. Cool task, something I've never done before.
